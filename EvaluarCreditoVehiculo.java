@@ -27,7 +27,7 @@ public class EvaluarCreditoVehiculo {
     */
     private Double calcularInteresCompuesto(Double valor,Integer tiempo) {
         Double TMV;
-        TMV=2.2/100;
+        TMV=2.2/100 ;
              
         return valor*((Math.pow((1+TMV),tiempo)-1));
     }
